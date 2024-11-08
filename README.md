@@ -5,7 +5,7 @@ A Study on Imbalanced Data Handling Techniques in Hate Speech Detection: Focused
 
 Detecting and suppressing violent and discriminatory language online, especially on social media, is essential, and research in hate speech detection has been actively progressing. However, due to the nature of hate speech datasets, when there are more than two classes, data imbalance tends to occur as hate speech samples are fewer than normal samples, which dominate the dataset. This study compares imbalance data handling techniques for hate speech detection, focusing on oversampling. Among machine learning algorithms for multi-class classification, Multinomial Naive Bayes and Support Vector Machines showed significant performance improvement when random oversampling and SMOTE-based techniques were applied. For deep learning algorithms, applying random oversampling to an LSTM-based classifier effectively resolved the issue of overfitting to the majority class.
 
-- Dataset: HateXplain[https://github.com/hate-alert/HateXplain]
+- Dataset: [HateXplain](https://github.com/hate-alert/HateXplain)
 - Used Imbalanced Data Handling Techniques
   - Random Oversampling (ROS)
   - SMOTE
